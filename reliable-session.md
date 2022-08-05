@@ -792,3 +792,8 @@ bool Session.ReencodeMessage(Message message)
     return true;
 }
 ```
+
+
+# TODO
+
+SessionId를 지정해서 연결 복원을 요청했지만, 서버에서 SessionId에 해당하는 세션 객체가 날라갔을 경우 오류 처리에 대한 언급
